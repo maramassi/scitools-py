@@ -5,15 +5,13 @@ Unknown Class,"Artifact",,,,,,,,,,,,"0.00",,
 Package,"bentoml",,0,0,0,0,0,0,0,0,0,,,0,0
 Package,"bentoml",,0,0,0,0,0,0,0,0,0,,,0,0
 Package,"bentoml",,0,0,0,0,0,0,0,0,0,,,0,0
-Package,"bentoml",,7,1,6,6,1,0,6,6,1,,,0,1
-Package,"bentoml",,10,1,9,6,4,0,6,6,1,,,0,1
+Package,"bentoml",,11,1,10,7,4,0,7,7,1,,,0,1
 Package,"bentoml.artifacts",,0,0,0,0,0,0,0,0,0,,,0,0
 Package,"bentoml.artifacts",,45,11,29,16,18,6,28,14,17,,,1,9
 Package,"bentoml.artifacts",,0,0,0,0,0,0,0,0,0,,,0,0
 Package,"bentoml.artifacts",,44,11,30,16,17,4,29,16,16,,,1,9
 Package,"bentoml.artifacts",,0,0,0,0,0,0,0,0,0,,,0,0
 Package,"bentoml.artifacts",,35,9,22,14,13,5,22,12,13,,,1,7
-Package,"bentoml.artifacts",,10,1,9,6,4,0,6,6,1,,,0,1
 Package,"bentoml.artifacts",,0,0,0,0,0,0,0,0,0,,,0,0
 Class,"bentoml.artifacts.pickle_artifact.PickleArtifact",bentoml/artifacts/pickle_artifact.py,37,8,25,12,18,5,24,10,17,,"0.20",1,9
 Function,"bentoml.artifacts.pickle_artifact.PickleArtifact.__init__(self,name,pickle_module,pickle_extension)",bentoml/artifacts/pickle_artifact.py,8,0,8,4,7,0,7,4,6,2,"0.00",1,
@@ -36,8 +34,7 @@ Function,"bentoml.artifacts.text_file_artifact.TextFileArtifact.load(self,base_p
 Function,"bentoml.artifacts.text_file_artifact.TextFileArtifact.pack(self,content)",bentoml/artifacts/text_file_artifact.py,2,0,2,1,1,1,2,1,1,1,"0.50",0,
 Function,"bentoml.artifacts.text_file_artifact.TextFileArtifact.save(self,base_path)",bentoml/artifacts/text_file_artifact.py,6,1,5,2,4,0,5,1,4,2,"0.00",1,
 Function,"bentoml.artifacts.text_file_artifact.TextFileArtifact.text_file_path(self,base_path)",bentoml/artifacts/text_file_artifact.py,2,0,2,1,1,0,2,1,1,1,"0.00",0,
-File,"bentoml/__init__.py",bentoml/__init__.py,7,1,6,6,1,0,6,6,1,1,"0.00",0,1
-File,"bentoml/artifacts/__init__.py",bentoml/artifacts/__init__.py,10,1,9,6,4,0,6,6,1,1,"0.00",0,1
+File,"bentoml/__init__.py",bentoml/__init__.py,11,1,10,7,4,0,7,7,1,1,"0.00",0,1
 Module File,"bentoml/artifacts/pickle_artifact.py",bentoml/artifacts/pickle_artifact.py,45,11,29,16,18,6,28,14,17,0,"0.21",1,9
 Module File,"bentoml/artifacts/pytorch_model_artifact.py",bentoml/artifacts/pytorch_model_artifact.py,44,11,30,16,17,4,29,16,16,0,"0.13",1,9
 Module File,"bentoml/artifacts/text_file_artifact.py",bentoml/artifacts/text_file_artifact.py,35,9,22,14,13,5,22,12,13,0,"0.23",1,7
