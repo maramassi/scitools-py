@@ -1,5 +1,5 @@
-# scitools-py-api
-Python script to extract metrics from Scitools (Understand tool) (https://scitools.com/) using Python API
+# scitools-py
+Python script to extract metrics from Scitools (Understand tool) (https://scitools.com/) using Python
 
 # Clone Genealogy Analysis Script
 
