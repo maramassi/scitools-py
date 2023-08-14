@@ -97,18 +97,18 @@ def build_und_project_db(commit_id, metric_columns, project, clone_files):
         cmd_add_file = ['und', 'add', clone_file, und_commit_db]
         shellCommand(cmd_add_file)
 
-        # settings and analyze udb to retrieve functions with parameters
-        cmd_setting_analyze = ['und', '-db', und_commit_db, 'settings', '-metrics']
-        cmd_setting_analyze.extend(metric_columns)
-        cmd_setting_analyze.extend(['-MetricShowFunctionParameterTypes', 'on'])
-        cmd_setting_analyze.extend(['-MetricFileNameDisplayMode', 'RelativePath'])
-        cmd_setting_analyze.extend(['-MetricDeclaredInFileDisplayMode', 'RelativePath'])
-        cmd_setting_analyze.extend(['-MetricShowDeclaredInFile', 'on'])
-        cmd_setting_analyze.extend(['-MetricAddUniqueNameColumn', 'off'])
-        cmd_setting_analyze.extend(['-ReportDisplayParameters', 'on'])
-        cmd_setting_analyze.extend(['-ReportFileNameDisplayMode', 'RelativePath'])
-        cmd_setting_analyze.extend(['analyze', 'metrics'])
-        shellCommand(cmd_setting_analyze)
+    # settings and analyze udb to retrieve functions with parameters
+    cmd_setting_analyze = ['und', '-db', und_commit_db, 'settings', '-metrics']
+    cmd_setting_analyze.extend(metric_columns)
+    cmd_setting_analyze.extend(['-MetricShowFunctionParameterTypes', 'on'])
+    cmd_setting_analyze.extend(['-MetricFileNameDisplayMode', 'RelativePath'])
+    cmd_setting_analyze.extend(['-MetricDeclaredInFileDisplayMode', 'RelativePath'])
+    cmd_setting_analyze.extend(['-MetricShowDeclaredInFile', 'on'])
+    cmd_setting_analyze.extend(['-MetricAddUniqueNameColumn', 'off'])
+    cmd_setting_analyze.extend(['-ReportDisplayParameters', 'on'])
+    cmd_setting_analyze.extend(['-ReportFileNameDisplayMode', 'RelativePath'])
+    cmd_setting_analyze.extend(['analyze', 'metrics'])
+    shellCommand(cmd_setting_analyze)
 
 
 if __name__ == '__main__':
